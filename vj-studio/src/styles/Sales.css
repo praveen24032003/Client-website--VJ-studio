@@ -1,0 +1,45 @@
+/* Inherits from Rentals.css, adding specific Sales styles */
+
+.stock-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.in-stock {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+
+.out-stock {
+    background-color: #ffebee;
+    color: #c62828;
+}
+
+.info-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.9rem;
+    color: var(--text-main);
+    font-weight: 500;
+}
+
+.price-sales {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--secondary);
+    margin-bottom: 1rem;
+}
